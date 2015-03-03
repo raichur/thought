@@ -1,3 +1,5 @@
+// I swear never to write code of this quality ever again.
+
 function quoteArray (n) {
   this.length = n;
   for (var i =1; i <= n; i++) {
