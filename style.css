@@ -8,19 +8,51 @@ body {
 }
 #quote_container {
 	margin: auto;
-  margin-top: 15%;
+	margin-top: 15%;
 	margin-bottom: 15%;
 	width: 70%;
 }
 #quote_container h1 {
 	font-size: 3rem;
 	margin-bottom: 20px;
+	-webkit-animation: fadeIn 1s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadeIn 1s; /* Firefox < 16 */
+	-ms-animation: fadeIn 1s; /* Internet Explorer */
+	-o-animation: fadeIn 1s; /* Opera < 12.1 */
+	animation: fadeIn 1s;
 }
 #quote_container h2 {
-	opacity: .6;
+	color: #636363;
+	-webkit-animation: fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadeIn 2s; /* Firefox < 16 */
+	-ms-animation: fadeIn 2s; /* Internet Explorer */
+	-o-animation: fadeIn 2s; /* Opera < 12.1 */
+	animation: fadeIn 2s;
+	animation-delay: 1s;
 }
 @media screen and (max-width: 400px) {
 	#quote_container h1 {
 		font-size: 2.2rem;
 	}
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
