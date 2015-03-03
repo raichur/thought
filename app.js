@@ -377,7 +377,7 @@ quote[363] = "You can have results or you can have your excuses. You cannot have
 quote[364] = "Dream as if you'll live forever. Live as if you'll die today";
 var currentdate = new Date();
 var quotenumber = day;
-document.getElementById('quote_container').innerHTML += '<h1 id="quote-h1">' + quote[quotenumber] + '</h1>';
+document.getElementById('quote_container').innerHTML += '<h1 id="quote-h1">' + quote[quotenumber] + '.</h1>';
 
 function quoteArray (n) {
   this.length = n;
@@ -758,4 +758,4 @@ quote[363] = "unknown";
 quote[364] = "James Dean";
 var currentdate = new Date();
 var quotenumber = day;
-document.getElementById('quote_container').innerHTML += '<h2>' + quote[quotenumber] + '</h2>';
+document.getElementById('quote_container').innerHTML += '<h2>– ' + quote[quotenumber] + '</h2>';
